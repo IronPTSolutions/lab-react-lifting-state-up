@@ -1,0 +1,41 @@
+
+.event{
+  border: 1px solid transparent;
+}
+
+.event:hover{
+  border: 1px solid rgba(0,0,0,0.15);
+  box-shadow: rgba(0,0,0,0.15) 1.95px 1.95px 2.6px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.event img {
+  border-radius: 4px;
+}
+
+.event .time{
+  color: rgb(209, 65, 12);
+  font-size: 13px;
+}
+
+.event .actions {
+  font-size: 13px;
+  top: -18px;
+  right: 10px;
+}
+
+.event .actions span {
+  background-color: white;
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0 0 2px #888;
+  padding: 0.5em 0.6em;
+}
+
+.event .actions span + span {
+  margin-left: 10px;
+}
+
+.event .tag + .tag {
+  margin-left: 10px;
+}
